@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>UCAR - Climate Sensitivity Calculator</title>
-<link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link rel="stylesheet" href="src/css/style.css"/>
 </head>
 <!--
 ADAPTATION FOR THIS INTERACTION DEVELOPED BY GARY PACHECO FROM
 UCAR - THE COMET PROGRAM 2020
 IN CONJUNCTION WITH
-UCAR - SCIED 2012-2020    
+UCAR - SCIED 2012-2020
 -->
 <body>
     <div id="main" class="container">
@@ -20,7 +20,7 @@ UCAR - SCIED 2012-2020
             <span class="range-slider-value">0</span>
             <input id="ppmv-range" type="range" class="custom-range" min="180" max="800" step="10" value="390">
         </div>
-    
+
 
     <div id="particle-system-container">
 
@@ -37,9 +37,9 @@ UCAR - SCIED 2012-2020
                 <p id="calculated-temp-text">Average Global Temperature</p>
                 <p id="calculated-temp"><span id="agt"></span>&deg; C</p>
             </div>
-            
+
         </div>
-        
+
     </div>
 
     <div id="cs-controls">
@@ -90,11 +90,12 @@ UCAR - SCIED 2012-2020
         <br><br>
         <input id="close-btn" type="button" value="Close" onclick="toggleCreditsModal('close')"/>
     </div>-->
-    
+
     </div><!-- end container -->
 
-    
-    <script src="src/js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="src/js/jquery-3.6.0.min.js">\x3C/script>')</script>
+
     <script src="src/js/particle/particles.js"></script>
     <script src="src/js/particle/app.js"></script>
     <script src="src/js/main.js"></script>
